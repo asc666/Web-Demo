@@ -1,7 +1,19 @@
-<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
 <html>
+<head>
+	<meta charset="UTF-8">
+	<title>DemoWeb</title>
+</head>
+
 <body>
-<h2><%= "Hallo Wölt!" %></h2>
-<h3>Date=<%= new Date() %></h3>
+	<h1>Startseite</h1>
+	</br>
+	<ul>
+		<li><a href="simple/simpleExamples.jsp">Einfache Beispiele</a>
+		<li><a href="simple/editor.jsp">Editor</a>
+		<li><a href="simple/pizza.jsp">Pizza</a>		
+	</ul>
 </body>
 </html>
